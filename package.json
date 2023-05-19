@@ -1,0 +1,37 @@
+{
+  "name": "mysql-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Erik H. A. Lima",
+    "email": "privado.erikhenrique@gmail.com",
+    "url": "https://github.com/erikhenriqueal"
+  },
+  "keywords": [
+    "mysql",
+    "sql",
+    "tool",
+    "tools",
+    "database",
+    "db",
+    "data"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsnd --rs src/index.ts",
+    "commit": "git add * && git commit -m \"Commited by 'commit' script on package.json\""
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^20.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.3.1",
+    "sql-query-identifier": "^2.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
